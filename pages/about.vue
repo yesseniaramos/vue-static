@@ -1,32 +1,14 @@
 <template>
   <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        Vue Static Practice
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project practice
-      </h2>
-      <div class="links">
-        <a
-          href="/about"
-          target="_blank"
-          class="button--green">About</a>
+      <div>
+          <h1>About this side</h1>
+          <h2>Why this side was created</h2>
+          <div>
+              This site it's a practice of a static site made with vue.js and nuxt.js
+          </div>
       </div>
-    </div>
   </section>
 </template>
-
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
 
 <style>
 .container {

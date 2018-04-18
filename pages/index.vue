@@ -1,7 +1,11 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
+      <picture>
+        <source media="(min-width: 650px)" srcset="~/assets/images/miau-500x500.png">
+        <source media="(max-width: 649px)" srcset="~/assets/images/miau-250x250.png">
+        <img src="~/assets/images/miau.jpg" alt="miau" style="width:500;">
+      </picture>
       <h1 class="title">
         Vue Static Practice
       </h1>
@@ -17,16 +21,6 @@
     </div>
   </section>
 </template>
-
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
 
 <style>
 .container {
